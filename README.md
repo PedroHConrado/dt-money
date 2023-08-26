@@ -12,7 +12,7 @@ This applications is a personal finance manager.
 ## Screenshots
 
 <div align="center" id="top"> 
-<img src="./src/assets/Screenshot1.png" alt="Página Home" />
+<img src="./src/assets/Screenshot.png" alt="Página Home" />
 </div>
 <br/>
 <br/>
