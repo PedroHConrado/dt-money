@@ -7,28 +7,26 @@
 
 ## About
 
-This applications is a coffee marketplace.
+This applications is a personal finance manager.
 
 ## Screenshots
 
 <div align="center" id="top"> 
-<img src="./src/assets/Print-Home.png" alt="Página Home" />
+<img src="./src/assets/Screenshot1.png" alt="Página Home" />
 </div>
 <br/>
 <br/>
 <div align="center" id="top"> 
-  <img src="./src/assets/Print-Checkout.png" alt="Página Checkout" />
+  <img src="./src/assets/Screenshot2.png" alt="Modal Criação" />
 </div>
 <br/>
 <br/>
-<div align="center" id="top"> 
-  <img src="./src/assets/Print-Success.png" alt="Página Success" />
-
-</div>
 
 ## Features
 
-It's a coffee ordering app! The application has 3 screens, the first is a presentation screen and a list of available coffees. On the second screen, there is a form with your address data and the cart with the selected coffees. In the third, an order confirmation is displayed, as well as the delivery details of the purchase.
+Table with personal finance data with name, amount, category and date.
+Summary cards with incomes, outcomes and total.
+Button that Create a new transaction using a beautiful modal.
 
 ## Technologies
 
@@ -36,28 +34,29 @@ The following tools were used in this project:
 
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Immer](https://immerjs.github.io/immer/)
 - [Zod](https://zod.dev/)
+- [Radix](https://www.radix-ui.com/)
 - [Axios](https://github.com/axios/axios)
 - [Styled Componensts](https://styled-components.com/)
-- [Toastify](https://fkhadra.github.io/react-toastify/introduction)
 - [Phosphor React](https://phosphoricons.com/)
-
-## Requirements
-
-Before starting 🏁, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+- [react-hook-form](https://www.react-hook-form.com/)
+- [use-context-selector](https://github.com/dai-shi/use-context-selector)
+- [json-server](https://github.com/typicode/json-server)
 
 ## Starting
 
 ```bash
 # Clone this project
-$ git clone https://github.com/PedroHConrado/coffee-delivery
+$ git clone git@github.com:PedroHConrado/dt-money.git
 
 # Access
-$ cd coffee-delivery
+$ cd dt-money
 
 # Install dependencies
 $ npm i
+
+# Run the server
+$ npm run dev:server
 
 # Run the project
 $ npm run dev
